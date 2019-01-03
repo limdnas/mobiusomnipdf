@@ -14,6 +14,8 @@ Just A Simple Stylish PDF Reader Made With Flutter
 
 -no annoying popup ads, just one banner ad to help me compensate my unability to find a job
 
+-looks good in landscape mode and portrait mode
+
 ## Getting Started
 
 For help getting started with Flutter, view our online
