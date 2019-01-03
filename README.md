@@ -10,6 +10,8 @@ Just A Simple Stylish PDF Reader Made With Flutter
 
 -dark/light theme for the pdf reading experience
 
+-zoom in and zoom out
+
 ## Getting Started
 
 For help getting started with Flutter, view our online
