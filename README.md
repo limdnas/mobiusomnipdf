@@ -23,3 +23,11 @@ For help getting started with Flutter, view our online
 
 For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
 
+## Download It From Google PlayStore
+
+<p align="center">
+    <a href="https://play.google.com/store/apps/details?id=space.mobiusomniverse.pdf">
+        <img src="https://raw.githubusercontent.com/mobiusomniverse/mobiusomniverse.github.io/master/google-play-badge.png" alt="Google PlayStore">
+    </a>
+</p>
+
