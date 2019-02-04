@@ -158,12 +158,12 @@ class _OmniverseState extends State<Omniverse> {
       });
   }
   viewPDF() async {
-    PdfViewer.loadFile(docPaths[0],
+    PdfViewer.loadFile(docPaths[index],
           );
   }
 
   shareDocs() async {
-    File testFile = new File(docPaths[0]);
+    File testFile = new File(docPaths[index]);
     if (!await testFile.exists()) {
       await testFile.create(recursive: true);
       testFile.writeAsStringSync("share documents");
@@ -177,7 +177,7 @@ class _OmniverseState extends State<Omniverse> {
     } on PlatformException {}
     if (!mounted) return;
     omniPath = await PdfPreviewer.getPagePreview(
-        filePath: docPaths[0], pageNumber: 1);
+        filePath: docPaths[index], pageNumber: 1);
     setState(() {});
   }
 
