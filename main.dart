@@ -177,7 +177,7 @@ class _OmniverseState extends State<Omniverse> {
     } on PlatformException {}
     if (!mounted) return;
     omniPath = await PdfPreviewer.getPagePreview(
-        filePath: docPaths[index], pageNumber: 1);
+        filePath: docPaths[0], pageNumber: 1);
     setState(() {});
   }
 
