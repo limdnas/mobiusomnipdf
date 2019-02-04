@@ -1,0 +1,28 @@
+name: pdf
+description: Mobius Omni PDF
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter  
+  url_launcher:
+  firebase_admob:
+  pdf_previewer:
+  flutter_pdf_viewer:
+  share_extend:
+  documents_picker:
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
